@@ -1,0 +1,133 @@
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color:;
+}
+
+h3 {
+    width: 1200px;
+    clear: both;
+    font-size: 35px;
+    color: #66666e;
+	text-align: center;	
+}
+
+
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+#portfolio {
+    height: 600px;
+	overflow: auto;
+	padding-left: 80px;
+	background-color:#fbfcff;
+} 
+
+#about {
+	height: 300px;
+	overflow: auto;
+	background-color:#66666e;
+}
+
+#contact {
+	height: 200px;
+	overflow: auto;
+	background-color:#274156;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 810px;
+    background: url('../img/hero.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color:#274156;
+    padding: 65px 0 0px 25px; 
+} 
+header h1 span {
+	color: #66666e;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #66666e;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1150px;
+    clear: both;
+    font-size: 45px;
+    line-height: 60px;
+    color: #66666e;
+   	padding: 0px 0 60px 15px;
+	text-align: center;
+}
+
+/* Portfolio */
+
+#portfolio div {
+	float:left; 
+	
+}
+
+#project1 {
+	border:1px solid #E0E0E0;
+	border-right: none;
+}
+
+#project2 {
+	border: 1px solid #E0E0E0;
+	border-right: none;
+}
+#project3 {
+	border: 1px solid #E0E0E0;
+}
+
+/*about section */
+
+#about h3 {
+	color: #fbfcff;
+}
+
+/*contact section */
+
+#contact h3 {
+	color: #fbfcff;
+}
+
+
+
+
+
+
+
+
+
+
